@@ -1,0 +1,42 @@
+# Qt/qmake build directories
+/build/
+/build-*/
+/build_*/
+/cmake-build-*/
+/tests/build/
+/tests/build-*/
+/tests/build_*/
+
+# Compiled binaries and libraries
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dll
+*.dylib
+*.exe
+*.app/
+HF-PathfinderTest
+receiver-test
+
+# qmake-generated files
+.qmake.stash
+Makefile
+Makefile.*
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# Test output
+test-results/
+Testing/
+*.log
+
+# Editor and operating-system files
+.vscode/
+.idea/
+*.user
+*.user.*
+.DS_Store
+Thumbs.db
